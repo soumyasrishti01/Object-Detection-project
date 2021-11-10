@@ -11,8 +11,8 @@
 
     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="television.css">
+    <script src="television.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -22,18 +22,15 @@
 <body background="object_detection_background">
     <center>
         <h1 class="btn btn-default heading">
-            <ion-icon name="globe-outline"></ion-icon> Object Detection <ion-icon name="globe-outline"></ion-icon>
+            <ion-icon name="globe-outline"></ion-icon> Television <ion-icon name="globe-outline"></ion-icon>
         </h1>
-        <br><br><br><br><br><br><br>
-        <a class="btn btn-default anchor_tag" href="television.html">Television</a>
-        <br><br><br>
-        <a class="btn btn-default anchor_tag" href="bedroom.html">Bedroom</a>
-        <br><br><br>
-        <a class="btn btn-default anchor_tag" href="A.C.html">A.C</a>
-        <br><br><br>
-        <a class="btn btn-default anchor_tag" href="fruit_basket.html">Fruit Basket</a>
-        <br><br><br>
-        <a class="btn btn-default anchor_tag" href="kitchen.html">Kitchen</a>
+        <br><br>
+        <center>
+            <button class="btn btn-danger">Status : <span id="tv_detect"></span></button>
+        </center>
+        <a class="btn btn-danger back" href="index.html">Back</a>
+        <br><br><br><br>
+        <img src="TV pic">
     </center>
     <div class="btn btn-info footer">
         <label>Developed By - Srishti Soumya</label>
